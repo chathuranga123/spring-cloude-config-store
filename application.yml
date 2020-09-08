@@ -9,5 +9,14 @@ spring:
           search-paths:
            - '*service'
 
-
+member:
+ rent:
+  min: 7
+  max: 30
+ price:
+  discount: 3
+vehicle:
+ default:
+  model: cross over
+duration: all
 
